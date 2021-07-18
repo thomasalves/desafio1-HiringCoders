@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+.navbar-brand img {
+    width: 35%;
+    height: 35%;
+}
+.main {
+    background-color: rgb(53, 199, 199);
+    width: 100vw;
+    height: 80vh;
+}
+.row {
+    display: flex;
+    width: 100vw;
+}
+
+.col-md-6 {
+    padding:30px;
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+}
+.col-md-6 h3 {
+    width: 80%;
+    padding-top: 100px;
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    color: white;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.col-md-6 h4 {
+    padding-left: 70px;
+    padding-bottom: 20px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.col-md-6  img{
+    width: 70%;
+    display: flex;
+    float: right;
+    padding-top: 20px;
+}
+
+.card {
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px !important;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 20px 2px rgb(104, 103, 103);
+}
+.card-body {
+    margin-top: 20px;
+    height: 300px;
+}
+.btn {
+    margin-top: 20px;
+}
+
+.input-group {
+    margin: .3rem 0;
+}
+
+.footer {
+    background-color: rgb(249, 249, 249);
+    margin-bottom: 0px;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    font-size: .7rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (max-width: 700px) {
+    #woman {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+
+    .col-md-6 h3, .col-md-6 h4 {
+        font-size: .9rem;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .card {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        justify-content:  center;
+        flex-direction: unset;
+        align-self: flex-end;
+    }
+    .navbar {
+        margin-left: 0px;
+        height: 10vh;
+    }
+    .navbar-brand img {
+        height: 10vh;
+        width: 30%;
+        margin-left: 0;
+        padding: 0;
+    } 
+
+    .footer {
+        height: 10vh;
+    }
+
+
+}
